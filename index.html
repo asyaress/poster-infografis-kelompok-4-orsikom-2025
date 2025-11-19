@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Bus & Interkoneksi – Infografis</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="app">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-badge">Infografis Komputer</div>
+            <h1 class="header-title">Bus &amp; Interkoneksi</h1>
+            <p class="header-subtitle">Jalan tol data di dalam komputer</p>
+        </header>
+
+        <main class="main">
+            <!-- POSTER SECTION -->
+            <section class="section section-poster">
+                <h2 class="section-heading">Poster Infografis</h2>
+
+                <p class="section-text">
+                    Berikut adalah poster infografis bertema
+                    <strong>Bus &amp; Interkoneksi</strong>.
+                </p>
+
+                <figure class="poster-card">
+                    <!-- GANTI src DENGAN NAMA FILE PNG POSTER KAMU -->
+                    <img src="assets/poster-bus-interkoneksi.png"
+                        alt="Poster infografis Bus &amp; Interkoneksi: Jalan tol data di dalam komputer"
+                        class="poster-image" />
+                    <figcaption class="poster-caption">
+                        Poster infografis &ldquo;Bus &amp; Interkoneksi: Jalan tol data di
+                        dalam komputer&rdquo;.
+                    </figcaption>
+                </figure>
+
+                <div class="button-group">
+                    <!-- Download poster PNG -->
+                    <!-- GANTI href DENGAN LOKASI FILE PNG KAMU -->
+                    <a href="assets/poster-bus-interkoneksi.png" download class="btn btn-primary">
+                        Download Poster (PNG)
+                    </a>
+                </div>
+            </section>
+
+            <!-- PDF SLIDER: PDF + APA DI DALAM SATU SLIDE -->
+            <section class="section section-pdf">
+                <h2 class="section-heading">Dokumen Referensi &amp; Sitasi APA</h2>
+
+                <p class="section-text">
+                </p>
+
+                <div class="pdf-slider">
+                    <div class="slider-header">
+                        <span class="slider-label">PDF/Website aktif:</span>
+                        <span class="slider-counter" id="sliderCounter">1 / 1</span>
+                    </div>
+
+                    <div class="slider-window">
+                        <div class="slider-track" id="pdfTrack">
+                            <!-- Slide PDF + APA akan dibuat otomatis lewat JavaScript -->
+                        </div>
+                    </div>
+
+                    <div class="slider-controls">
+                        <button type="button" class="slider-nav-btn" id="prevSlide" aria-label="PDF sebelumnya">
+                            ‹
+                        </button>
+
+                        <div class="slider-dots" id="sliderDots">
+                            <!-- Dots akan dibuat otomatis lewat JavaScript -->
+                        </div>
+
+                        <button type="button" class="slider-nav-btn" id="nextSlide" aria-label="PDF berikutnya">
+                            ›
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p class="footer-text">
+                &copy; Orsikom | Kelompok 4 | Informatika A 2025
+            </p>
+        </footer>
+    </div>
+
+    <!-- Main JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
